@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>Мое портфолио</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" type="image/png" href="img/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="img/site.webmanifest" />
+</head>
+
+<body>
+  <header class="header">
+      <nav class="navbar">
+          <div class="logo">
+              <h2 class="logo-heading"></h2>Сергей Кучумов
+          </div>
+          <div class="menu">
+              <ul class="menu-list">
+                  <li class="menu-list-items">
+                      <a class="links" href="index.html">Домой</a>
+                  </li>
+                  <li class="menu-list-items">
+                      <a class="links" href="portfolio.html">Портфолио</a>
+                  </li>
+                  <li class="menu-list-items">
+                      <a class="links" href="about.html">Обо мне</a>
+                  </li>
+                  <li class="menu-list-items">
+                      <a class="links" href="#home">Контакты</a>
+                  </li>
+                  <li class="menu-list-items">
+                    <a class="links" href="image.html">Динамическая страница</a>
+                </li>
+              </ul>
+          </div>
+      </nav>
+  </header>
+
+    <section class="contact" id="contact">contact-text
+        <div class="contact-heading">
+            <h1 class="my-heading text-center">Контакты</h1>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form-container">
+                <h1 class="greet-heading">Информация для связи</h1>
+                <form class="contact-form"
+                action="send_message.php"
+                method="POST"
+                target="_blank"
+                >
+                    <input class="form-controls" type="text" name="name"
+                           placeholder="Ваше имя">
+                    <input class="form-controls" type="text" name="email"
+                           placeholder="Ваш Email">
+                    <input class="form-controls" type="text" name="phone"
+                           placeholder="Номер вашего телефона">
+                    <textarea class="form-controls" 
+                              placeholder="Ваше сообщение" 
+                              name="message" cols="10"
+                              rows="5">
+                      </textarea>
+                    <input class="form-btn btn common-btn" 
+                           type="submit" value="Отправить сообщение">
+                </form>
+            </div>
+            <div class="contact-details">
+                <h1 class="greet-heading">Мои контактные данные</h1>
+                <div class="details">
+                    <h5 class="contact-heading">Эл. почта</h5>
+                    <p class="">example@gmail.com</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">Номер телефона</h5>
+                    <p>+791012345678</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">Адрес</h5>
+                    <p>город Нижний Новгород,</p>
+                    <p>улица Яблоневая, дом 18</p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+<footer class="footer">
+  <div class="footer-content text-center">
+      <h4>
+          © 2024 Моё портфолио. Все права защищены.
+      </h4>
+
+    <script src="script.js"></script> 
+</body>
+</html>
